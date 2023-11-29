@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WCList_KDZ</class>
+ <widget class="QWidget" name="WCList_KDZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1800</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>微信</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView_left">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>160</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/wcback.png);
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>15</y>
+     <width>95</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/wclmy.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl1">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>130</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl2">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>220</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl3">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>310</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl4">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>400</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl5">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>490</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl6">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>580</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl8">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>760</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl9">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>965</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl7">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>670</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl10">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>1045</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wcl11">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>1125</y>
+     <width>65</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_search">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>30</y>
+     <width>350</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="placeholderText">
+    <string>搜索</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>0</y>
+     <width>1250</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page_1">
+    <widget class="QLineEdit" name="lineEdit_title1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1240</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Agency FB&quot;;</string>
+     </property>
+     <property name="text">
+      <string>  聊天</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>1240</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_in">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>910</y>
+       <width>1240</width>
+       <height>290</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_send">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>1100</y>
+       <width>150</width>
+       <height>65</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送(S)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLineEdit" name="lineEdit_title2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1240</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Agency FB&quot;;</string>
+     </property>
+     <property name="text">
+      <string>  通讯录</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>1240</width>
+       <height>1090</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_friendB">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1240</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/new/prefix1/friendBG.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>1240</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>400</width>
+     <height>1090</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

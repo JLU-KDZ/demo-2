@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QQChatUI_KDZ</class>
+ <widget class="QWidget" name="QQChatUI_KDZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>1300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QQ聊天</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>1300</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page_1">
+    <widget class="QTextEdit" name="textEdit_FsendOUT">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>1600</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_FsendIN">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>900</y>
+       <width>1600</width>
+       <height>400</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_fsend">
+     <property name="geometry">
+      <rect>
+       <x>1400</x>
+       <y>1200</y>
+       <width>150</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>发送</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_fchat">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>30</y>
+       <width>350</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_invite">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>70</y>
+       <width>350</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>邀请成员</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_inviteID">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>360</y>
+       <width>400</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>邀请</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_inviteID">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>210</y>
+       <width>800</width>
+       <height>80</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_RGroup">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>150</width>
+       <height>65</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_subG">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>590</y>
+       <width>200</width>
+       <height>65</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>新建临时讨论组</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_subGID">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>750</y>
+       <width>650</width>
+       <height>80</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_subGID">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>760</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>群号</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_subGNAME">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>960</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>群名</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_subGNAME">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>950</y>
+       <width>650</width>
+       <height>80</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_subG">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>1110</y>
+       <width>400</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>创建</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QTextEdit" name="textEdit_GsendOUT">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>1100</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>false</bool>
+     </property>
+     <property name="lineWrapMode">
+      <enum>QTextEdit::WidgetWidth</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_GsendIN">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>900</y>
+       <width>1100</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;Arial&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTreeView" name="treeView_QQchat">
+     <property name="geometry">
+      <rect>
+       <x>1100</x>
+       <y>100</y>
+       <width>500</width>
+       <height>1100</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::CustomContextMenu</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_gchat">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>25</y>
+       <width>350</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_gsend">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>1200</y>
+       <width>150</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_server">
+     <property name="geometry">
+      <rect>
+       <x>1200</x>
+       <y>1230</y>
+       <width>300</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_gset">
+     <property name="geometry">
+      <rect>
+       <x>1450</x>
+       <y>20</y>
+       <width>120</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

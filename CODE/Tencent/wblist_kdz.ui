@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WBList_KDZ</class>
+ <widget class="QWidget" name="WBList_KDZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>微博</string>
+  </property>
+  <widget class="QLabel" name="label_WBgra">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>100</y>
+     <width>300</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/wbBG.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_WBsearch">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>410</y>
+     <width>600</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:35px;
+font: 10pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>   搜索微博</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_search">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>410</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/search.png);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

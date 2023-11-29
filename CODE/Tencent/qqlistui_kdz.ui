@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QQListUI_KDZ</class>
+ <widget class="QWidget" name="QQListUI_KDZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QQ列表</string>
+  </property>
+  <widget class="QTreeView" name="treeView_QQlist">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>580</width>
+     <height>920</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::CustomContextMenu</enum>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_namepre">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>5</y>
+     <width>80</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>账号:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_IDpre">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>75</y>
+     <width>80</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>昵称:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_signaturepre">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>135</y>
+     <width>90</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>个性签名:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_myinfo">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>50</y>
+     <width>95</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:40px;
+border-image: url(:/new/prefix1/myphoto.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ID">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>5</y>
+     <width>250</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_name">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>75</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_signature">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>135</y>
+     <width>300</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_set">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>1125</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/qqset.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_newgroup">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>1127</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/qqgroup.JPG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_addF">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>1126</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/qqfriend.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_space">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>1125</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/qqspace.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

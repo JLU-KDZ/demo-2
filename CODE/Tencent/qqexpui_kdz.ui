@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QQExpUI_KDZ</class>
+ <widget class="QWidget" name="QQExpUI_KDZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1430</width>
+    <height>990</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1430</width>
+     <height>990</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page_1">
+    <widget class="QLabel" name="label_newf">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>80</y>
+       <width>400</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>添加好友</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_queryF">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>240</y>
+       <width>520</width>
+       <height>60</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_queryF">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>240</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查询 QQ:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_confirm1">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>370</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>申请添加</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_suggest">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>600</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>推荐好友:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_suggest">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>600</y>
+       <width>520</width>
+       <height>60</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton__confirm2">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>740</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>申请添加</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QPushButton" name="pushButton_exit">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>860</y>
+       <width>400</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>退出登录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_linkedWC">
+     <property name="geometry">
+      <rect>
+       <x>860</x>
+       <y>630</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确认绑定</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_linkedWC">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>130</y>
+       <width>300</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>绑定微信</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_linkedWCID">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>310</y>
+       <width>520</width>
+       <height>70</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_linkedWCID">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>315</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>微信账号:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_linkedWCPW">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>475</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>微信密码:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_linkedWCPW">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>470</y>
+       <width>520</width>
+       <height>70</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_refresh">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>860</y>
+       <width>400</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>刷新</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_addG">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>580</y>
+       <width>300</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>加入群聊</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_newG">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>300</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>创建群聊</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_GID">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>190</y>
+       <width>550</width>
+       <height>60</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_GID">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>190</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>群号:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Gname">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>340</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>群名:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Gname">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>340</y>
+       <width>550</width>
+       <height>60</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_newG">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>450</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确认创建</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_addGID">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>720</y>
+       <width>550</width>
+       <height>60</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_addGID">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>720</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>群号:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_add">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>830</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>申请加入</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QLabel" name="label_myspace">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/new/prefix1/myphoto.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_main">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>250</y>
+       <width>120</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>主页</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_gra">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>250</y>
+       <width>120</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>相册</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_more">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>250</y>
+       <width>120</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>更多</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>340</y>
+       <width>1430</width>
+       <height>650</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_my">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>250</y>
+       <width>120</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>个人</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

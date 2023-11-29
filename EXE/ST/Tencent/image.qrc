@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>qqui.png</file>
+        <file>wechatui.png</file>
+        <file>weiboui.png</file>
+        <file>tencent.jpg</file>
+        <file>qqfriend.jpg</file>
+        <file>qqspace.jpg</file>
+        <file>qqset.jpg</file>
+        <file>qqgroup.JPG</file>
+        <file>myphoto.png</file>
+        <file>back1.png</file>
+        <file>back2.png</file>
+        <file>back3.png</file>
+        <file>wcback.png</file>
+        <file>wclmy.jpg</file>
+        <file>wcl1.png</file>
+        <file>wcl1_.png</file>
+        <file>wcl2.png</file>
+        <file>wcl2_.png</file>
+        <file>wcl3.png</file>
+        <file>wcl4.png</file>
+        <file>wcl5.png</file>
+        <file>wcl6.png</file>
+        <file>wcl7.png</file>
+        <file>wcl8.png</file>
+        <file>wcl9.png</file>
+        <file>wcl10.png</file>
+        <file>wcl11.png</file>
+        <file>wcl5_.png</file>
+        <file>friendBG.png</file>
+        <file>wbBG.png</file>
+        <file>search.png</file>
+    </qresource>
+</RCC>

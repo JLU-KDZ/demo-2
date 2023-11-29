@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WBUI_KDZ</class>
+ <widget class="QWidget" name="WBUI_KDZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>微博</string>
+  </property>
+  <widget class="QLabel" name="label_WB">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>200</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>微博</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_WBRW">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>125</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_WBID">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>220</y>
+     <width>180</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QQ账号</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_WBpw">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>375</y>
+     <width>180</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QQ密码</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_WBID">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>215</y>
+     <width>420</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请输入QQ账号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_WBpw">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>370</y>
+     <width>420</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>请输入QQ密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Qlogin">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>540</y>
+     <width>400</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QQ快捷登录</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
